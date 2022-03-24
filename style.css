@@ -1,0 +1,19 @@
+.header{
+    padding: 10px 20px 10px 20px;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.bodyText, .columnText{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    background-color:#dfdbdb;
+}
+
+.columnText{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #cfcccc
+}
