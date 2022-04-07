@@ -38,12 +38,12 @@ if (variable1 < 10){
 
 } */
 
-/* EJEMPLO 4 BUCLE */
+/* EJEMPLO 4 BUCLE
 let numeroTabla = parseInt (prompt("Ingrese un número"));
 
 for (let variable = 0; variable <= 10; variable++){
     console.log("Multiplicamos: " + numeroTabla + "x" + variable + " = " + numeroTabla * variable);
-} 
+}  */
 
 /* EJEMPLO 5 BREAK
 for (let i = 0; i < 10; i++){
@@ -99,3 +99,22 @@ function precioTotal (precio,IVA){
 let precioProducto = 1250;
 precioTotal(precioProducto,IVA(precioProducto))
 console.log(IVA(1500));
+
+
+function Calzado(marca, tipo, tallesDisp, precioAprox){
+    this.marca = marca;
+    this.tipo = tipo;
+    this.tallesDisp = tallesDisp;
+    this.precioAprox = precioAprox;
+}
+
+const calzado1 = new Calzado('Voran', 'zapato', 38-43, 8000);
+const calzado2 = new Calzado('Voran', 'zapatilla', 39-44, 12000);
+const calzado3 = new Calzado('Voran', 'borcego', 39-44, 10000);
+
+
+const tipoCalzado = ["Zapato", "Zapatilla", "Borcego", "Botin"];
+const talles = [38, 39, 40, 41, 42, 43, 44];
+
+console.log("Tipos de calzado: " + tipoCalzado.length)
+console.log("Talles: " + talles.length)
