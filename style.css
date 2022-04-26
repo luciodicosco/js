@@ -1,19 +1,31 @@
-.header{
-    padding: 10px 20px 10px 20px;
-    background-color: antiquewhite;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    font-family: 'Times New Roman', Times, serif;
+.header {
+  padding: 10px 20px 10px 20px;
+  background-color: antiquewhite;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Times New Roman", Times, serif;
 }
 
-.bodyText, .columnText{
-    display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
-    background-color:#dfdbdb;
+.subtitle {
+  font-size: 20px;
 }
 
-.columnText{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: #cfcccc
+.bodyText,
+.columnText {
+  padding: 0px 10px 0px 10px;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  background-color: #dfdbdb;
+}
+
+.columnText {
+  padding: 0px 10px 0px 10px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: #cfcccc;
+}
+
+.selector{
+  display: flex;
+  flex-direction: row;
 }

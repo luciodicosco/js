@@ -111,10 +111,38 @@ function Calzado(marca, tipo, tallesDisp, precioAprox){
 const calzado1 = new Calzado('Voran', 'zapato', 38-43, 8000);
 const calzado2 = new Calzado('Voran', 'zapatilla', 39-44, 12000);
 const calzado3 = new Calzado('Voran', 'borcego', 39-44, 10000);
-
+const calzado4 = new Calzado('Voran', 'botin', 41-44, 9000);
 
 const tipoCalzado = ["Zapato", "Zapatilla", "Borcego", "Botin"];
 const talles = [38, 39, 40, 41, 42, 43, 44];
 
+talles.forEach((numTalles) => {console.log(numTalles)});
+tipoCalzado.forEach((calzados) => {console.log(calzados)});
+
 console.log("Tipos de calzado: " + tipoCalzado.length)
 console.log("Talles: " + talles.length)
+
+const calzadosMasIva = [
+    {nombre: "zapato", precio: 8000},
+    {nombre: "zapatilla", precio: 12000},
+    {nombre: "borcego", precio: 10000},
+    {nombre: "botin", precio: 9000}
+];
+
+const preciosIva = calzadosMasIva.map((el) => {
+    return{
+        nombre: el.nombre,
+        precio: el.precio + el.precio * 0.21
+    }
+
+});
+
+console.log(preciosIva);
+
+let byClass = document.getElementsByClassName("header");
+let pTag = document.getElementsByTagName("p");
+
+console.log(byClass);
+console.log(pTag);
+
+document.querySelector(".selector").addEventListener("onclick", () => console.log(value));
