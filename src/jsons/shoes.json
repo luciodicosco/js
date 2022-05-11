@@ -1,0 +1,112 @@
+[
+    {
+        "Id": 0,
+        "Model": "Forum Low",
+        "Brand": "Adidas",
+        "Size": [39.5, 41, 41.5, 45.5],
+        "Sex": "Male",
+        "Color": ["White"],
+        "price": 26999,
+        "imgUrl":"src/img/shoes/adidas1.jpg"
+    },
+    {
+        "Id": 1,
+        "Model": "U Classic Slip-On Platform",
+        "Brand": "Vans",
+        "Size": [34.5, 35, 36, 36.5, 37, 38, 38.5], 
+        "Sex": "Female",
+        "Color": ["White"],
+        "price": 11900,
+        "imgUrl":"src/img/shoes/zapamujer.jpg"
+    },
+    {
+        "Id": 2,
+        "Model": "Multix",
+        "Brand": "Adidas",
+        "Size": [38, 38.5, 39, 39.5, 40, 41, 41.5, 42, 43, 44],
+        "Sex": "Male",
+        "Color": ["Black", "White"],
+        "price": 16999,
+        "imgUrl":"src/img/shoes/adidas2.jpg"
+    },
+    {
+        "Id": 3,
+        "Model": "Court Legacy",
+        "Brand": "Nike",
+        "Size": [37.5, 39, 39.5, 40, 41, 41.5, 42, 43, 43.5, 44],
+        "Sex": "Male",
+        "Color": ["White"],
+        "price": 14499,
+        "imgUrl":"src/img/shoes/nike1.jpg"
+    },
+    {
+        "Id": 4,
+        "Model": "Nike Air Huarache",
+        "Brand": "Nike",
+        "Size": [36, 37, 37.5, 38, 39, 40, 41, 41.5, 42, 43, 44],
+        "Sex": "Male",
+        "Color": ["White"],
+        "price": 25999,
+        "imgUrl":"src/img/shoes/nike2.jpg"
+    },
+    {
+        "Id": 5,
+        "Model": "Nike Air Max 1 Recycled White",
+        "Brand": "Nike",
+        "Size": [40, 41, 41.5, 42, 43],
+        "Sex": "Male",
+        "Color": ["White","Green","Yellow"],
+        "price": 32999,
+        "imgUrl":"src/img/shoes/nike3.jpg"
+    },
+    {
+        "Id": 6,
+        "Model": "Superstar",
+        "Brand": "Adidas",
+        "Size": [36, 36.5, 37, 38, 39, 40, 41, 42],
+        "Sex": "Male",
+        "Color": ["White"],
+        "price": 22999,
+        "imgUrl":"src/img/shoes/adidas3.jpg"
+    },
+    {
+        "Id": 7,
+        "Model": "Renno Generation",
+        "Brand": "Fila",
+        "Size": [40, 41, 42, 43, 44],
+        "Sex": "Male",
+        "Color": ["White"],
+        "price": 17999,
+        "imgUrl":"src/img/shoes/fila1.jpg"
+    },
+    {
+        "Id": 8,
+        "Model": "Classic Leather Ghostbuster",
+        "Brand": "Reebok",
+        "Size": [26.5, 27, 27.5, 28],
+        "Sex": "Kid",
+        "Color": ["Brown"],
+        "price": 12999,
+        "imgUrl":"src/img/shoes/reebok1.jpg"
+    },
+    {
+        "Id": 9,
+        "Model": "Air Max 90 Premium",
+        "Brand": "Nike",
+        "Size": [35, 36, 37, 38, 39, 40, 41, 42, 43, 44],
+        "Sex": "Male",
+        "Color": ["Light Blue"],
+        "price": 28999,
+        "imgUrl":"src/img/shoes/nike4.jpg"
+    },
+    {
+        "Id": 0,
+        "Model": "X-Ray 2 Square",
+        "Brand": "Puma",
+        "Size": [39, 39.5, 40, 41, 41.5, 42, 43, 43.5, 44],
+        "Sex": "Unisex",
+        "Color": ["Black"],
+        "price": 15499,
+        "imgUrl":"src/img/shoes/puma1.jpg"
+    }
+]
