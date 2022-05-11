@@ -30,7 +30,6 @@ body {
 
 /*#region Header*/
 .header{
-    position: absolute;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -98,4 +97,18 @@ body {
     border-color: var(--color-highlight);
     color: var(--color-highlight);
 }
+/*#endregion*/
+
+/*#region ContentPlaceHolder*/
+
+.contentPlaceHolder{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    height: 90vh;
+    padding: 2rem;
+}
+
 /*#endregion*/
