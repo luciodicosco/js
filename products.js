@@ -24,12 +24,17 @@ function loadProducts(products) {
                     </div>
                     <span class="productSex">${products[i].Sex}</span>
                     <div class="productColors">
-                        <span class="productColorTitle">Colores:</span>
-                        <span class="productThing productColor"></span>
-                    </div>
+                        <span class="productColorTitle">Colores:</span>`
+                        for (let s = 0; s < products[i].Color.length; s++) {
+                            output += `<span class="productThing">${products[i].Color[s]}</span>`
+                        }
+                        output += `</div>
                     <div class="productSizes">
-                        <span class="productThingTitle">Talles:</span>
-                        <span class="productThing productSize"></span>
+                        <span class="productThingTitle">Talles:</span>`
+                        for (let c = 0; c < products[i].Size.length; c++) {
+                            output += `<span class="productThing">${products[i].Size[c]}</span>`
+                        }
+                        output += `</div>
                     </div>
                     <span class="productPrice">$${products[i].price}</span>
                     <button><span><i class="fa-solid fa-cart-plus"></i> Agregar al carrito</span></button>
