@@ -48,22 +48,21 @@ function loadProducts(products) {
 }
 
 function addCart(id) {
-    var products = JSON.parse(localStorage.getItem('products')) || [];
-    var product = products.find(function (product) {
+    var cartProducts = JSON.parse(localStorage.getItem('cartProducts')) || [];
+    var product = cartProducts.find(function (product) {
         return product.Id === id;
     });
 
     if (product) {
         product.Quantity++;
     } else {
-        products.push({
+        cartProducts.push({
             Id: id,
             Quantity: 1
         });
     }
 
-    localStorage.setItem('products', JSON.stringify(products));
-    alert('Producto agregado al carrito');
+    localStorage.setItem('cartProducts', JSON.stringify(cartProducts));
 }
 
 
