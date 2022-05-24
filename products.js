@@ -37,7 +37,7 @@ function loadProducts(products) {
                         output += `</div>
                     </div>
                     <span class="productPrice">$${products[i].price}</span>
-                    <button><span><i class="fa-solid fa-cart-plus"></i> Agregar al carrito</span></button>
+                    <button onclick="addCart(${products[i].Id})"><span><i class="fa-solid fa-cart-plus"></i> Agregar al carrito</span></button>
                 </div>
             </div>
         `;
@@ -45,6 +45,25 @@ function loadProducts(products) {
 
     document.getElementById('productContainer').innerHTML = output;
 
+}
+
+function addCart(id) {
+    var products = JSON.parse(localStorage.getItem('products')) || [];
+    var product = products.find(function (product) {
+        return product.Id === id;
+    });
+
+    if (product) {
+        product.Quantity++;
+    } else {
+        products.push({
+            Id: id,
+            Quantity: 1
+        });
+    }
+
+    localStorage.setItem('products', JSON.stringify(products));
+    alert('Producto agregado al carrito');
 }
 
 
