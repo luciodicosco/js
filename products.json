@@ -91,11 +91,11 @@
     },
     {
         "Id": 9,
-        "Model": "Air Max 90 Premium",
+        "Model": "Air Max 90 Se",
         "Brand": "Nike",
         "Size": [35, 36, 37, 38, 39, 40, 41, 42, 43, 44],
-        "Sex": "Male",
-        "Color": ["Light Blue"],
+        "Sex": "Female",
+        "Color": ["Pink"],
         "price": 28999,
         "imgUrl":"/src/img/shoes/nike4.jpg"
     },
