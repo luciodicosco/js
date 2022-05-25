@@ -1,0 +1,8 @@
+.featuredProducts {
+  padding: 2rem;
+  width: 100%;
+}
+
+#productContainer {
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr)) !important;
+}

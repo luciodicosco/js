@@ -1,20 +1,20 @@
-.titlesAboutUs{
-    margin-left: 10px;
-    font-size: px;
-    font-weight: 500;
-    padding-bottom: 25px;
-    font-family: Poppins,sans-serif;
-    color: #000;
-    margin-top: 20px;
-    margin-bottom: 0;
+.titlesAboutUs {
+  margin-left: 10px;
+  font-size: px;
+  font-weight: 500;
+  padding-bottom: 25px;
+  font-family: Poppins, sans-serif;
+  color: #000;
+  margin-top: 20px;
+  margin-bottom: 0;
 }
 
-.spanAboutUs{
-    box-sizing: border-box;
-    font-size: 16px;
-    font-weight: 400;
-    font-family: Poppins,sans-serif;
-    color: #000;
-    line-height: 21px;
-    margin-bottom: 0;
+.spanAboutUs {
+  box-sizing: border-box;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: Poppins, sans-serif;
+  color: #000;
+  line-height: 21px;
+  margin-bottom: 0;
 }
