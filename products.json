@@ -7,7 +7,7 @@
     "Sex": "Male",
     "Color": ["White"],
     "price": 26999,
-    "imgUrl": "/src/img/shoes/adidas1.jpg"
+    "imgUrl": "./src/img/shoes/adidas1.jpg"
   },
   {
     "Id": 1,
@@ -17,7 +17,7 @@
     "Sex": "Female",
     "Color": ["White"],
     "price": 11900,
-    "imgUrl": "/src/img/shoes/zapamujer.jpg"
+    "imgUrl": "./src/img/shoes/zapamujer.jpg"
   },
   {
     "Id": 2,
@@ -27,7 +27,7 @@
     "Sex": "Male",
     "Color": ["Black", "White"],
     "price": 16999,
-    "imgUrl": "/src/img/shoes/adidas2.jpg"
+    "imgUrl": "./src/img/shoes/adidas2.jpg"
   },
   {
     "Id": 3,
@@ -37,7 +37,7 @@
     "Sex": "Male",
     "Color": ["White"],
     "price": 14499,
-    "imgUrl": "/src/img/shoes/nike1.jpg"
+    "imgUrl": "./src/img/shoes/nike1.jpg"
   },
   {
     "Id": 4,
@@ -47,7 +47,7 @@
     "Sex": "Male",
     "Color": ["White"],
     "price": 25999,
-    "imgUrl": "/src/img/shoes/nike2.jpg"
+    "imgUrl": "./src/img/shoes/nike2.jpg"
   },
   {
     "Id": 5,
@@ -57,7 +57,7 @@
     "Sex": "Male",
     "Color": ["White", "Green", "Yellow"],
     "price": 32999,
-    "imgUrl": "/src/img/shoes/nike3.jpg"
+    "imgUrl": "./src/img/shoes/nike3.jpg"
   },
   {
     "Id": 6,
@@ -67,7 +67,7 @@
     "Sex": "Male",
     "Color": ["White"],
     "price": 22999,
-    "imgUrl": "/src/img/shoes/adidas3.jpg"
+    "imgUrl": "./src/img/shoes/adidas3.jpg"
   },
   {
     "Id": 7,
@@ -77,7 +77,7 @@
     "Sex": "Male",
     "Color": ["White"],
     "price": 17999,
-    "imgUrl": "/src/img/shoes/fila1.jpg"
+    "imgUrl": "./src/img/shoes/fila1.jpg"
   },
   {
     "Id": 8,
@@ -87,7 +87,7 @@
     "Sex": "Kid",
     "Color": ["Brown"],
     "price": 12999,
-    "imgUrl": "/src/img/shoes/reebok1.jpg"
+    "imgUrl": "./src/img/shoes/reebok1.jpg"
   },
   {
     "Id": 9,
@@ -97,7 +97,7 @@
     "Sex": "Female",
     "Color": ["Pink"],
     "price": 28999,
-    "imgUrl": "/src/img/shoes/nike4.jpg"
+    "imgUrl": "./src/img/shoes/nike4.jpg"
   },
   {
     "Id": 10,
@@ -107,6 +107,6 @@
     "Sex": "Unisex",
     "Color": ["Black"],
     "price": 15499,
-    "imgUrl": "/src/img/shoes/puma1.jpg"
+    "imgUrl": "./src/img/shoes/puma1.jpg"
   }
 ]
